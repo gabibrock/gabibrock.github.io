@@ -1,7 +1,7 @@
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #fff0f5;
-    color: #ff69b4;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f0e3;
+    color: #b22222;
     margin: 0;
     padding: 0;
     display: flex;
@@ -12,10 +12,11 @@ body {
 }
 
 header {
-    background-color: #ff69b4;
+    background-color: #b22222;
     width: 100%;
     text-align: center;
     padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
@@ -27,6 +28,7 @@ header h1 {
 main {
     padding: 20px;
     text-align: center;
+    flex: 1;
 }
 
 .message {
@@ -35,29 +37,35 @@ main {
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
+    max-width: 600px;
 }
 
 .message h2 {
-    color: #ff69b4;
+    color: #b22222;
     margin-top: 0;
+}
+
+.message p {
+    line-height: 1.6;
 }
 
 .images img {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 footer {
-    background-color: #ff69b4;
+    background-color: #b22222;
     width: 100%;
     text-align: center;
     padding: 10px 0;
-    position: absolute;
-    bottom: 0;
+    position: relative;
 }
 
 footer p {
     margin: 0;
     color: #fff;
+    font-size: 0.9em;
 }
