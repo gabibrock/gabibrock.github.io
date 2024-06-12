@@ -98,6 +98,8 @@ main {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+    top: 10px; 
+    left: 10px;
 }
 
 .hidden {
